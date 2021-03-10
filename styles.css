@@ -1,0 +1,98 @@
+body{
+    font-size: 14px;
+    font-family:arial,sans-serif;
+    color: #222;
+}
+footer{
+    position: fixed;
+    background-color: whitesmoke;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.gmailspace {
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin: 8px;
+}
+a:link {
+    text-decoration: none;
+  }
+
+a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.logo{
+    position: static;
+    padding-top: 100px; 
+}
+
+.box {
+    position: relative;
+    margin-top: 30px;
+    width: 550px;
+    height: 37px;
+    border-radius: 30px;
+    border: 1px lightgray solid;
+    padding: 5px 5px 5px 25px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.butt1 {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    position: static;
+    right: 86px;
+    top: 0px;
+    width: 125px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+
+  }
+  .butt2 {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    position: static;
+    right: 77px;
+    top: 0px;
+    width: 135px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+  }
+
+.butt1:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-color: lightgray;
+}
+
+.butt2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-color: lightgray;
+}
+.bottomtext{
+    color: green;
+  }
